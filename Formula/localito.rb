@@ -6,18 +6,18 @@ class Localito < Formula
   on_macos do
     depends_on arch: :arm64
     depends_on "openssl@3"
-    url "https://github.com/ceritium/localito/releases/download/v0.2.0/localito-v0.2.0-macos-arm64.tar.gz"
-    sha256 "de7a61bb80c3843bfc2127d65092ce72fe3ec0f2da777487414a1eb9078010ce"
+    url "https://github.com/ceritium/localito/releases/download/v0.3.0/localito-v0.3.0-macos-arm64.tar.gz"
+    sha256 "0d3a6b11d32c12a7e335a41c938ce88cc7f5c4a170983745b0f8f4aa2f2c2c6c"
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ceritium/localito/releases/download/v0.2.0/localito-v0.2.0-linux-arm64.tar.gz"
-      sha256 "16882d97d4dae4fb1918769b7ccb2679c143ddd7cc2631a2c61d5d63827e924b"
+      url "https://github.com/ceritium/localito/releases/download/v0.3.0/localito-v0.3.0-linux-arm64.tar.gz"
+      sha256 "492865fe0588e4ea15fcab9d0366913bb789d47676759b595ea523cb304bcf81"
     end
     on_intel do
-      url "https://github.com/ceritium/localito/releases/download/v0.2.0/localito-v0.2.0-linux-x86_64.tar.gz"
-      sha256 "3977afc8750c99c5785dfbc0bfc229be9eec8fece6f444bc00c45970ebec8dd9"
+      url "https://github.com/ceritium/localito/releases/download/v0.3.0/localito-v0.3.0-linux-x86_64.tar.gz"
+      sha256 "93bbfea6004823536f689fa782f10f9db5848d0250906f2e6a7d9460f8750fc7"
     end
   end
 
