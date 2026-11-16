@@ -2,7 +2,6 @@
 class Localito < Formula
   desc "Browse and edit a Rails app's i18n YAML files in the browser"
   homepage "https://github.com/ceritium/localito"
-  version "0.2.0"
 
   on_macos do
     depends_on arch: :arm64
